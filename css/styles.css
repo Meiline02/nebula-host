@@ -1,0 +1,263 @@
+/* Resetando estilos pré-aplicados*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Roboto, sans-serif;
+}
+
+
+/* tamanho da imagem do icone da barra de navegaçao*/
+.logo {
+    width: 80px;
+    margin-bottom: 15px;
+}
+
+/* cores da fonte*/
+h1, h2, h3{
+    color: #63268d;
+}
+
+p {
+    color: #4a3657;
+}
+
+/* Barra de Navegação */
+.barra-nav{
+    width: 100%;
+    height: 80px;
+    padding: 0 2rem;
+    background-color: rgb(36, 8, 128);
+    
+}
+
+nav {
+    position: relative;
+}
+
+.itens-nav{
+    position: absolute;
+    margin: 0;
+    right: 0px;
+    height: 80px;
+    line-height: 80px;
+    display: inline-block;
+}
+
+.itens-nav li {
+    display: inline-block;
+    margin-left: 25px;
+    text-transform: uppercase;
+
+}
+
+.itens-nav a{
+    text-decoration: none;
+    color: #dfd7f7;
+    transition: o.5s;
+    cursor: pointer;
+    padding-right: 25px;
+    border-right: 2px solid #dfd7f7;
+
+}
+
+.itens-nav .default-btn{
+    border: none;
+}
+
+/*transição quando passa o mouse*/
+.itens-nav a:hover{
+    color: #fceb28;
+}
+
+.default-btn{
+    padding: 15px 20px;
+    background-color: #0b1abd;
+    border-radius: 5px;
+}
+
+.itens-nav .default-btn:hover{
+    background-color: #0f1db6;
+    color: #ffffff;
+
+}
+
+/*Banner Principal*/
+.banner-principal{
+    /*adicionando um degrade na imagem de fundo*/
+    background-image: linear-gradient(rgba(36, 8, 128, 0.6), rgba(98, 5, 133, 0.6)), url("../img/nebula_bc.jpg");
+    background-position: center;
+    background-size: cover;
+    padding: 10rem 0 ;
+}
+
+.banner-principal h1, .banner-principal p{
+    color:#e0b6f9;
+    text-align: center;
+    font-weight: bold;
+    text-shadow: #100a14 3px 2px 3px;
+}
+
+
+.banner-principal h1{
+    font-size: 54px;
+}
+
+.banner-principal p{
+    font-size: 22px;
+}
+
+/* seção de beneficios*/
+
+.secao-sev{
+    padding: 5rem 0;
+}
+
+.secao-sev ul{
+    display: flex;
+    /*centralização*/
+    width: 90%;
+    margin: 0 auto;
+}
+
+
+.secao-sev li{
+    list-style: none;
+    flex: 1 1 200px;
+    text-align: center;
+    padding: 20px;
+    /*adicionando um fundo*/
+    background-color: #e5d7fc;
+    border-radius: 10px;
+    margin: 0 25px;
+}
+
+.fas{
+    font-size: 60px;
+    margin-bottom: 15px;
+}
+
+.fa-shield-alt, .fa-rocket, .fa-comments{
+    color: #63268d;
+}
+
+.secao-sev h3{
+    margin-bottom:  25px;
+}
+
+.secao-sev p{
+   line-height: 20px;
+}
+
+/* lista de preços */
+
+.sec-planos{
+    padding-bottom: 5rem;
+    text-align: center;
+
+}
+
+.sec-planos h2{
+    font-size: 36px;
+}
+
+.sec-planos p{
+    font-size: 20px;
+    padding-bottom: 2rem;
+}
+
+.container-planos{
+    display: flex;
+    width: 90%;
+    margin: 0 auto;
+    /* espaça os itens*/
+    justify-content: space-between;
+}
+
+.planos{
+    flex: 1;
+    max-width: 275px;
+    margin: 0 20px;
+    border: 2px solid #e0b6f9;
+    border-radius: 25px;
+    
+}
+
+.planos ul{
+    padding: 0;
+}
+
+.planos li{
+    list-style: none;
+    height: 50px;
+    line-height: 50px;
+}
+
+.preco{
+    background-color: #e0b6f9;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+
+    font-weight: bold;
+    font-size: 25px;
+    color: #63268d;
+}
+
+.nome-plano{
+    font-weight: bold;
+    color: #63268d;
+    font-size: 20px;
+    margin-top: -10px;
+}
+
+/* botão saiba mais*/
+.plano-btn{
+
+    width: 165px;
+    margin: 10px auto;
+    background-color: #e0b6f9;
+    border-radius: 25px;
+
+    font-weight: bold;
+    color: #63268d;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.plano-btn:hover{
+    background-color: #c195da;
+    border-color: #c195da;
+}
+
+/* preço recomendado */
+
+.preco-recomendado{
+    background-color: #7353ff;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+
+    font-weight: bold;
+    font-size: 25px;
+    color: #ffffff;
+}
+
+#plano-recomendado{
+    border-color: #7353ff;
+}
+
+.plano-btn-recomendado{
+    width: 165px;
+    margin: 10px auto;
+    background-color: #7353ff;
+    border-radius: 25px;
+
+    font-weight: bold;
+    color: #ffffff;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.plano-btn-recomendado:hover{
+    background-color: #4823e9;
+
+}
