@@ -261,3 +261,33 @@ nav {
     background-color: #4823e9;
 
 }
+
+/*seção de busca de dominio*/
+.busca-de-dominio{
+    padding: 5rem 0;
+    text-align: center;
+    background-color: #63268d;
+}
+
+.busca-de-dominio h2{
+    color: #ffffff;
+}
+
+.busca-de-dominio p{
+    color: #ffffff;
+}
+
+.busca-de-dominio input {
+    display: block;
+    border: none;
+    border-radius: 2px ;
+    margin: 0 auto;
+}
+
+.busca-de-dominio input[type="text"]{
+
+    width: 60%;
+    padding: 20px;
+    margin-top: 20px;
+
+}
