@@ -27,7 +27,7 @@ p {
     width: 100%;
     height: 80px;
     padding: 0 2rem;
-    background-color: rgb(36, 8, 128);
+    background-color: #240880;
     
 }
 
@@ -271,10 +271,13 @@ nav {
 
 .busca-de-dominio h2{
     color: #ffffff;
+    font-size: 35px;
 }
 
 .busca-de-dominio p{
     color: #ffffff;
+    font-style: italic;
+    margin-top: 5px;
 }
 
 .busca-de-dominio input {
@@ -288,6 +291,26 @@ nav {
 
     width: 60%;
     padding: 20px;
-    margin-top: 20px;
+    margin-top: 30px;
 
 }
+
+.busca-de-dominio input[type="submit"]{
+
+    width: 250px;
+    padding: 20px;
+    margin-top: 25px;
+
+    /*estilazação do botão*/
+    background-color: #240880;
+    border-radius: 30px ;
+    font-size: 25px;
+    color: #ffffff;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.busca-de-dominio input[type="submit"]:hover{
+    background-color: #180556;
+}
+
