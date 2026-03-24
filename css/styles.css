@@ -314,3 +314,15 @@ nav {
     background-color: #180556;
 }
 
+/*Formulario de contato*/
+
+.container-contato{
+    text-align: center;
+    padding: 2rem 0 5rem;
+}
+
+.container-contato textarea{
+    display: block;
+    margin: 0 auto;
+}
+
