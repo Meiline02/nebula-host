@@ -372,3 +372,18 @@ nav {
 .container-contato input[type="submit"]:hover{
     background-color: #180556;
 }
+
+/*footer*/
+
+footer {
+
+    height: 150px;
+    background-color: #240880;
+    text-align: center;
+
+}
+
+footer p{
+    padding-top: 50px;
+    color: #ffffff;
+}
